@@ -1,0 +1,34 @@
+<html>
+<style>
+#data
+{
+ border-collapse: collapse;
+ width: 300;
+ text-align: right;
+}
+#data td, #data th
+{
+ border: 1px solid black;
+}
+</style>
+<table id="data">
+<th>country</th><th colspan="2">Population(in crores)</th>
+<tr>
+  <td rowspan="3">INDIA</td>
+  <td>1998</td><td>85</td></tr>
+</tr>
+  <td>1999</td><td>90</td></tr>
+<td>2000</td><td>100</td></tr>
+<tr>
+   <td rowspan="3">USA</td>
+   <td>1998</td><td>30</td></tr>
+<tr>
+   <td>1999</td><td>35</td></tr>
+<td>2000</td><td>40</td></tr>
+<tr>
+   <td rowspan="3">Uk</td>
+   <td>1998</td><td>25</td></tr>
+<tr>
+  <td>1999</td><td>30</td></tr>
+<td>2000</td><td>35</td></tr>
+</table>
